@@ -1,4 +1,4 @@
 package ru.job4j;
 
-public class echo1 {
+public class Echo1 {
 }
