@@ -13,7 +13,9 @@ public class Fit {
         public static void main (String[]args){
             short height = 187;
             double waight = Fit.manWeight(height);
-            System.out.println("Ваш вес не должен превышать " + waight + " кг");
+            System.out.println("Для мужиков не должен превышать " + waight + " кг" );
+            double waight1 = Fit.womanWeight(height);
+            System.out.println("Для женщин не должен превышать " + waight1 + " кг");
         }
     }
 
