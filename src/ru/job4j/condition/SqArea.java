@@ -7,7 +7,7 @@ public class SqArea {
         return length * height;
     }
     public static void main (String[] args) {
-        double result = SqArea.square(4, 2);
+        double result = SqArea.square(4, 1);
         System.out.println("Square  equal = " + result);
     }
 }
