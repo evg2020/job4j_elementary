@@ -5,9 +5,13 @@ public class Fit1 {
         double idealWeigth = (height - 100) * 1.15;
         System.out.println(idealWeigth);
     }
-
+    public static void womanWeight(float height) {
+        double idealWeigth = (height - 110) * 1.15;
+        System.out.println(idealWeigth);
+    }
     public static void main(String[] args){
         float height = 174;
         Fit1.manWeight(height);
+        Fit1.womanWeight(height);
     }
 }
