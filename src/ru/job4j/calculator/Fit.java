@@ -15,7 +15,7 @@ public class Fit {
             double waight = Fit.manWeight(height);
             System.out.println("Для мужиков не должен превышать " + waight + " кг" );
             double waight1 = Fit.womanWeight(height);
-            System.out.println("Для женщин не должен превышать " + waight1 + " кг");
+            System.out.println("Для женщин шне должен превышать " + waight1 + " кг");
         }
     }
 
