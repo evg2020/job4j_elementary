@@ -12,9 +12,9 @@ public class Fit {
             public static void main(String[] args)  {
             short height = 187;
             double weight = Fit.manWeight(height);
-            System.out.println("Для мужиков не должен превышать " + weight + " кг");
+            System.out.println("Для мужиков вес не должен превышать " + weight + " кг");
             double weight1 = Fit.womanWeight(height);
-            System.out.println("Для женщин шне должен превышать " + weight1 + " кг");
+            System.out.println("Для женщин  вес не должен превышать " + weight1 + " кг");
         }
 
     }
