@@ -9,7 +9,7 @@ public class Fit {
         return (height - 110) * 1.15;
             }
 
-            public static void main(String[] args) {
+            public static void main(String[] args)  {
             short height = 187;
             double weight = Fit.manWeight(height);
             System.out.println("Для мужиков не должен превышать " + weight + " кг");
