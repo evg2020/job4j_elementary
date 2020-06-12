@@ -14,5 +14,6 @@ public class Point {
 
         double result = Point.distance(x1, x2, y1, y2);
         System.out.println("distance (0, 0) to (2, 0) " + result);
+
     }
 }
