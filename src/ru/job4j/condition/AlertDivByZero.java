@@ -11,7 +11,6 @@ public class AlertDivByZero {
     }
 
     public static void main(String[] args) {
-
         AlertDivByZero.possibleDiv(-3);
         possibleDiv(0);
     }
