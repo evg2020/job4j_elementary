@@ -8,8 +8,8 @@ public class StringEq {
     }
 
     public static void main(String[] args) {
-        String your = "your_name";
-        boolean userHasAccess = StringEq.check(your);
+        String your = new String("your_name");
+        boolean userHasAccess = check(your);
         System.out.println(userHasAccess);
     }
 }
