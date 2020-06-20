@@ -12,7 +12,11 @@ public class DummyBot {
     }
 
     public static void main(String[] args) {
-        String res = DummyBot.answers("Привет");
+
+        System.out.println("Я бот и я умею отвечать на два вопроса");
+        String yoursqwestion = "Пока";
+        System.out.println("вы спрашиваете " + yoursqwestion);
+        String res = DummyBot.answers(yoursqwestion);
         System.out.println(res);
         res = DummyBot.answers("Пока");
         System.out.println(res);
