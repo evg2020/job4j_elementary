@@ -6,7 +6,7 @@ public class MultiMax {
         if (a > b) {
             res = a;
         } else if (b > c) {
-            res = b;
+            res = b ;
         }
         return c;*/
         int res = Math.max(a, Math.max(b, c));
