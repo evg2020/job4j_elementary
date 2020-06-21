@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 public class MultiMax {
-    public static int multiMax(int a, int b, int c) {
+    public static int multiMax(int first, int second, int third) {
        /* int res = a;
         if (a > b) {
             res = a;
@@ -9,12 +9,16 @@ public class MultiMax {
             res = b ;
         }
         return c;*/
-        int res = Math.max(a, Math.max(b, c));
+      /*  int res = Math.max(a, Math.max(b, c));
+        return res;*/
+
+        int res = first;
+        res = (first > second) ? ((first > third) ? first : third ) : ((second > third) ? second : third);
         return res;
     }
 
     public static void main(String[] args) {
-        int res = multiMax(-23, -23, -2);
+        int res = multiMax(1, 2, 3);
         System.out.println("Max of 3 number = " + res);
     }
 }
