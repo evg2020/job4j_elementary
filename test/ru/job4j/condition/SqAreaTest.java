@@ -10,8 +10,8 @@ public class SqAreaTest {
         short p = 5;
         short k = 5;
         double expected = 0.86;
-        double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 0.05);
+        double s = SqArea.square(p, k);
+        Assert.assertEquals(expected, s, 0.05);
     }
 
 }
