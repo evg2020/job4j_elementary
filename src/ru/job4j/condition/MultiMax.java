@@ -12,8 +12,8 @@ public class MultiMax {
       /*  int res = Math.max(a, Math.max(b, c));
         return res;*/
 
-        int res = first;
-        res = (first > second) ? ((first > third) ? first : third ) : ((second > third) ? second : third);
+
+        int res = (first > second) ? ((first > third) ? first : third ) : ((second > third) ? second : third);
         return res;
     }
 
