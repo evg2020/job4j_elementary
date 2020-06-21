@@ -10,18 +10,20 @@ public class Triangle {
         String label = exist(2, 3, 3);
         System.out.println(label);
     }*/
-    public static boolean exist(double a, double b, double c) {
+    /*public static boolean exist(double a, double b, double c) {
         boolean triangle = ((a + b) > c && (b + c) > a && (a + c) > b) ? true : false;
          if (triangle == true) {
              System.out.println("Triangle exist");
          } else {
              System.out.println("Triangle does nor exist");
          }
-        return triangle;
+        return triangle;*/
+    public static boolean exist(double a, double b, double c) {
+     return  (a + b) > c && (b + c) > a && (a + c) > b;
     }
 
     public static void main(String[] args) {
         boolean label = exist(2, 3, 3);
-//        System.out.println(label);
+        System.out.println(label);
     }
 }
