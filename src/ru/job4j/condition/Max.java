@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int arg1, int arg2) {
-        int res = Math.max(arg1, arg2);
+        int res = (arg1 > arg2) ? arg1 : arg2;
         return res;
     }
 
