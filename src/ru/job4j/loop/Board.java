@@ -4,10 +4,10 @@ public class Board {
     public static void pain(int width, int height){
         for(int row = 0; row < width; row++){
             for(int cell = 0; cell < height; cell++){
-                if(cell%2 == 0){
+                if((cell+row)%2 == 0){
                     System.out.print("x");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();
