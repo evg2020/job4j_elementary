@@ -12,7 +12,7 @@ public class ThreeMax {
         return res;
     }
     public static void main(String[] args) {
-        int result = max(1, 2, 3)
+        int result = max(1, 2, 3);
         System.out.println(result);
     }
 }
