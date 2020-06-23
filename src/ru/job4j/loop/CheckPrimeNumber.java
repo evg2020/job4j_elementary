@@ -5,13 +5,15 @@ public class CheckPrimeNumber {
        boolean prostoNumber = false ;
        for(int i = 2; i<= number;  i++ ){
        if((number%i) == 0){
+           if(i == number){
            prostoNumber = true;
-           break;
        }
+           break;
+    }
+}
+       return prostoNumber;
+    }
 
-    }
-        return prostoNumber;
-    }
 }
 
 

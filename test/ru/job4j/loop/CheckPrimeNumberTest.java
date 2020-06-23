@@ -14,9 +14,15 @@ public class CheckPrimeNumberTest {
     }
 
     @Test
-    public void when6() {
-        boolean res = CheckPrimeNumber.check(6);
+    public void when4() {
+        boolean res = CheckPrimeNumber.check(4);
         assertThat(res, is(false));
 
+    }
+
+    @Test
+    public void when1() {
+        boolean res = CheckPrimeNumber.check(1);
+        assertThat(res, is(false));
     }
 }
