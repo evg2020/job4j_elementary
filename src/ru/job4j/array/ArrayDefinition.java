@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class ArrayDefinition {
     public static void main(String[] args) {
         short[] ages = new short[10];
@@ -10,8 +12,12 @@ public class ArrayDefinition {
         boolean[] army = new boolean[100];
 
         names[0] = "Penr Arsentev";
-        names[1] = " Evgenii Fedorenko";
+        names[1] = "Evgenii Fedorenko";
         names[2] = "Richard Pipe";
         names[3] = "Viktor Pelevin";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
