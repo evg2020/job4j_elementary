@@ -12,7 +12,7 @@ public class PrimeNamber {
     }
 
         public static void main(String[] args) {
-        System.out.print(calc(1000));
+        System.out.print(calc(100));
 
     }
 }
