@@ -5,8 +5,12 @@ import org.w3c.dom.ls.LSOutput;
 public class Main {
 
     public static void main(String[] args) {
-             for (int i = 0; i < 10; i++) {
-             System.out.println("Hello word");
-            }
+        int[] numbers = new int[10];
+        for (int index = 0; index < numbers.length; index++) {
+            numbers[index] = index;
+        }
+        for (int index = 0; index < numbers.length; index++) {
+            System.out.println(numbers[index]);
+        }
         }
     }
