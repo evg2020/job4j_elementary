@@ -8,11 +8,12 @@ public class Min {
                 min =  data[i];
             }
         }
+
         return min;
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{12, 3, 4, 34, 18};
+        int[] array = new int[]{12, 2, 4, 34, 18};
         int result = Min.findMin(array);
         System.out.println(result);
     }
