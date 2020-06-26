@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import javax.swing.*;
+
 public class Turn {
     public static int[] back(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
@@ -14,7 +16,6 @@ public class Turn {
         int[] data = new int[]{1, 2, 3, 4, 5, 6};
         int[] res = back(data);
         for (int i = 0; i < data.length; i++) {
-
             System.out.print(res[i] + " ");
         }
     }
