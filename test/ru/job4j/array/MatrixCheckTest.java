@@ -28,5 +28,16 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, 2);
         assertThat(result, is(true));
     }
+     @Test
+    public void whenBoardThenDiagonal() {
+        char[][] input = {
+                {'X', ' ', 'X'},
+                {'X', 'X', 'X'},
+                {' ', ' ', 'X'},
+        };
+        char[] res = MatrixCheck.extractDiagonal(input);
+        char[] expect = new char[]{'X', 'X', 'X'};
+        assertThat(res, is(expect));
+     }
 
 }
