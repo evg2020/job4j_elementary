@@ -30,8 +30,8 @@ public class MatrixCheck {
                 {'X', 'X', 'X'},
                 {' ', ' ', 'X'},
         };
-        int row = 2;
-        boolean result = MatrixCheck.monoVertical(input, row);
+        int columb = 2;
+        boolean result = MatrixCheck.monoVertical(input, columb);
         System.out.println(result);
 
     }
