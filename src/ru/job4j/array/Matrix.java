@@ -1,5 +1,5 @@
 package ru.job4j.array;
-
+// таблица умножений
 public class Matrix {
     public static int[][] multiple(int size) {
         int[][] multiTable = new int[size][size];
