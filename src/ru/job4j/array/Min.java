@@ -8,7 +8,6 @@ public class Min {
                 min =  data[i];
             }
         }
-
         return min;
     }
 
