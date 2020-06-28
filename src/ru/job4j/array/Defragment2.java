@@ -4,28 +4,16 @@ package ru.job4j.array;
 public class Defragment2 {
     public static String[] compress(String[] array) {
         for (int i = 0; i < array.length; i++) {
-            String rowNull = rowNull(array);
-            int indexNull = indexNull(array);
+              int indexNull = indexNull(array);
                 String temp = array[i];
                 array[i] = array[indexNull];
                 array[indexNull] = temp;
-
         }
         return array;
     }
 
 
-    public static String rowNull(String[] array) {
-        String rowNull = array[1];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == null) {
-                rowNull = array[i];
-                break;
-            }
-        }
-        return rowNull;
-    }
-    
+
     public static int indexNull(String[] array) {
         int res = -1;
         for (int i = 0; i < array.length; i++) {
