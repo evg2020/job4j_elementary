@@ -12,7 +12,7 @@ public class FindLoop {
         return res;
     }
 
-    //Поиск индекса
+    //Поиск числа  и определение его индекса
     public static int indexOf(int[] data, int el) {
         int res = -1;
         for (int i = 0; i < data.length; i++) {
