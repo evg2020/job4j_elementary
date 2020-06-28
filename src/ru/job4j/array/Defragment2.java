@@ -12,8 +12,6 @@ public class Defragment2 {
         return array;
     }
 
-
-
     public static int indexNull(String[] array) {
         int res = -1;
         for (int i = 0; i < array.length; i++) {
