@@ -1,24 +1,26 @@
 package ru.job4j.array;
+/**
+ * @author Fedorenko
+ *
+ */
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static org.hamcrest.core.Is.is;
+import  static  org.hamcrest.core.Is.is;
 
 public class IsWinTest {
-
     @Test
     public void whenDataMonoByTrueThenTrue() {
-        char[][] data = {
-            {' ', ' ', 'X', ' ', ' '},
-            {' ', ' ', 'X', ' ', ' '},
-            {' ', ' ', 'X', ' ', ' '},
-            {' ', ' ', 'X', 'X', ' '},
-            {' ', ' ', 'X', ' ', ' '},
+        char[][] input = {
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
         };
-        boolean result = IsWin.isWin(data);
-        boolean expect = true;
-        assertThat(result, is(expect));
+        boolean result = IsWin.isWin(input);
+        assertThat(result, is (true));
     }
 
     @Test
@@ -31,8 +33,7 @@ public class IsWinTest {
                 {' ', ' ', 'X', ' ', ' '},
         };
         boolean result = IsWin.isWin(input);
-        boolean expect = false;
-        assertThat(result, is(expect));
+        assertThat(result, is(false));
     }
 
     @Test
@@ -45,7 +46,6 @@ public class IsWinTest {
                 {' ', ' ', 'X', ' ', ' '},
         };
         boolean result = IsWin.isWin(input);
-        boolean expect = true;
-        assertThat(result, is(expect));
+        assertThat(result, is(true));
     }
 }

@@ -1,5 +1,9 @@
 package ru.job4j.array;
-//6.3. Массив заполнен true или false
+/**
+ * @param data ввод массива.
+ * @return result проверка есть ли 1
+ *
+ * */
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
@@ -12,10 +16,6 @@ public class Check {
         return result;
     }
 
-    /*public static void main(String[] args) {
-        boolean[] data = {true, true, true};
-        boolean res = mono(data);
-        System.out.println(res);
-        }*/
+
 
 }

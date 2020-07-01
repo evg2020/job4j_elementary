@@ -10,8 +10,6 @@ public class ArrayDefinition {
         String[] names = new String[4];
         int[] nam = new int[10];
         boolean[] army = new boolean[100];
-
-
         names[0] = "Petr Arsentev";
         names[1] = "Evgenii Fedorenko";
         names[2] = "Richard Pipe";
